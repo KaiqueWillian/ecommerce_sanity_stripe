@@ -12,7 +12,6 @@ function FooterBanner({
     saleTime,
     smallText,
     midText,
-    product,
     buttonText,
     image,
   },

@@ -12,9 +12,9 @@ import {
 import { useStateContext } from "../../context/StateContext";
 
 function ProductDetails({ product, products }) {
-  const { image, name, details, price } = product;
-
   const [index, setIndex] = useState(0);
+
+  const { image, name, details, price } = product;
   const { incQty, decQty, qty, onAdd } = useStateContext();
 
   return (
